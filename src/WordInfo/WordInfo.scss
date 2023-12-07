@@ -139,3 +139,9 @@
     color: white;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .word {
+    font-size: 2.8rem;
+  }
+}
