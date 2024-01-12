@@ -84,7 +84,7 @@ function Header() {
               checked={theme === "dark"}
               onChange={handleThemeChange}
             />
-            <label htmlFor="theme"></label>
+            <label htmlFor="theme" className="theme-label"></label>
           </div>
           <PiMoonBold className="moon" />
         </div>

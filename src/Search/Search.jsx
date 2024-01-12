@@ -16,7 +16,7 @@ function Search() {
         onChange={handleSearch}
         className={`${theme === "light" ? "search" : "search dark-search"}`}
       />
-      <PiMagnifyingGlassBold className="search-icon" />
+      <PiMagnifyingGlassBold className="search-icon" onClick={handleSubmit} />
       <p className="error">{error}</p>
     </form>
   );

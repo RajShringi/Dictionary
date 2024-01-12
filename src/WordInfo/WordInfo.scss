@@ -27,6 +27,9 @@
 .flex-jc-sb {
   justify-content: space-between;
 }
+.flex-wrap {
+  flex-wrap: wrap;
+}
 
 .examples {
   margin-left: 2.5rem;
@@ -115,6 +118,7 @@
   padding: 1rem 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
   .text {
     text-decoration: underline;
@@ -126,6 +130,7 @@
     color: rgb(42, 45, 56);
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 
     span {
       margin-right: 0.5rem;

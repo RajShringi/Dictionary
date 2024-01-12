@@ -75,7 +75,7 @@
   left: -9000px;
 }
 
-label {
+.theme-label {
   background-color: #757575;
   width: 2.66rem;
   height: 1.33rem;
@@ -85,7 +85,7 @@ label {
   cursor: pointer;
 }
 
-label::after {
+.theme-label::after {
   content: "";
   position: absolute;
   width: 1rem;
@@ -101,12 +101,12 @@ label::after {
   transition: left 100ms ease-in-out;
 }
 
-.toggle:checked + label::after {
+.toggle:checked + .theme-label::after {
   // right: 10%;
   left: 50%;
 }
 
-.toggle:checked + label {
+.toggle:checked + .theme-label {
   background-color: #a445ed;
 }
 

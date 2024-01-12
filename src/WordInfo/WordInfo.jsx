@@ -35,7 +35,7 @@ function WordInfo() {
 
   return (
     <div>
-      <div className="flex flex-ai-c flex-jc-sb ">
+      <div className="flex flex-ai-c flex-jc-sb flex-wrap">
         <div className="word-container">
           <p className="word">{wordInfo.word}</p>
           <p className="phonetic">{wordInfo.phonetic}</p>
